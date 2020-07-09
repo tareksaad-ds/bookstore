@@ -66,6 +66,11 @@ a.btn-page:hover {
 .navLink:hover {
   color: #fa944b !important;
 }
+.cartLink,
+.cartLink:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /*  HOME   */
 

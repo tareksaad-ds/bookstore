@@ -28,8 +28,10 @@ class Anavbar extends Component {
                 Home
               </Nav.Link>
 
-              <Nav.Link className="navLink" href={"/cart"}>
-                <FaShoppingCart /> Cart ({cart})
+              <Nav.Link className="navLink">
+                <Link className="cartLink" to="/cart">
+                  <FaShoppingCart /> Cart ({cart})
+                </Link>
               </Nav.Link>
             </Nav>
           </div>
